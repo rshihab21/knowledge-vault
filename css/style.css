@@ -316,3 +316,51 @@ header {
 .early-btn {
     margin-bottom: 16px;
 }
+
+/* footer css  */
+footer {
+    background-color:rgba(0, 25, 49, 1);
+}
+.footer-container {
+    max-width: 1600px;
+    margin: 0 120px auto;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+} 
+.social-icon i {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-container hr {
+    margin-top: 114px;
+    border: 1px solid rgb(229, 231, 235);
+    opacity: 0.2;
+    
+}
+
+.footer-bottom p {
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
