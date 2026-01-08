@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-font {
+     font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+}
+
+/* shared css style  */
+
+.btn {
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* header css style */
+header {
+    max-width: 1600px;
+    margin: 0px 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.logo img {
+    max-width: 139px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.nav-menu > ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.nav-menu ul a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
